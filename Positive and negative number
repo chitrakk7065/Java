@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class NumberCheck {
+ public static void main (string[] args) {
+ Scanner scanner= new Scanner(System.in);
+ System.out.println("Enter a number");
+ int number=Scanner.nextInt();
+ if(number>0){
+   System.out.println("Number is positive");
+ }else if(number<0){
+   System.out.println("Number is negative");
+ }else{
+   System.out.printlnln("Number is zero");
+ }
+}
+}
