@@ -1,0 +1,11 @@
+Class EvenOdd
+{
+ public static void main (string[] args)
+ {
+   int num=10;
+   if(num%2==0)
+     System.out.println("Is even");
+   else
+     System.out.println("Is odd");
+ }
+}
